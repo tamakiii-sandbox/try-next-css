@@ -8,10 +8,13 @@
     color: white;
     background-color: red;
   };
+
+  --fontSize: 1rem;
 }
 
 a {
   color: var(--mainColor);
+  font-size: calc(var(--fontSize) * 4);
 }
 
 .danger {
