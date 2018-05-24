@@ -17,4 +17,4 @@ gulp.task('build-postcss', function() {
     .pipe(gulp.dest(path.css_dest));
 });
 
-gulp.task('default', ['css']);
+gulp.task('default', ['build-postcss']);
