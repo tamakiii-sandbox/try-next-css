@@ -1,0 +1,1 @@
+:root{--primary-color:red;--secondary-color:#0f0;--base-fontsize:1rem}.h1{color:var(--primary-color)}.h1:hover{color:var(--secondary-color)}body{font-size:var(--base-fontsize)}.flexbox{display:flex}.transform{transition:scale(.5)}
