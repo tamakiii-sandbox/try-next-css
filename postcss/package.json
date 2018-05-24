@@ -19,6 +19,7 @@
     "postcss-import": "^11.1.0",
     "postcss-reporter": "^5.0.0",
     "postcss-url": "^7.3.2",
-    "stylelint": "^9.2.1"
+    "stylelint": "^9.2.1",
+    "stylelint-config-standard": "^18.2.0"
   }
 }
