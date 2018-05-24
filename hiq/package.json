@@ -1,0 +1,17 @@
+{
+  "name": "try-next-css--hiq",
+  "version": "0.0.0",
+  "description": "- https://jonathanharrell.github.io/hiq/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postcss": "postcss src/index.css -o public/dist/css/index.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hiq": "^2.3.0-beta",
+    "postcss": "^6.0.22",
+    "postcss-cli": "^5.0.0"
+  }
+}

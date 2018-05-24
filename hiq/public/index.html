@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title>test page</title>
+    <link rel="stylesheet" href="/dist/css/index.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container is-fluid">
+        <nav>
+          <a class="active" href="/hiq/guide/getting-started/">
+            Guide
+          </a><a href="/hiq/reference/custom-properties/">
+            Reference
+          </a>
+        </nav>
+      </div>
+    </nav>
+
+    <div class="container is-fluid">
+      <div class="container">
+        <div class="main-content-wrapper">
+
+          <section class="doc-content">
+            <h1>Typography</h1>
+            <h2 id="global-settings">Global settings</h2>
+
+            <p>HiQ sets several global typographic settings:</p>
+
+            <section class="hiq-example">
+              <p class="is-size-1">Font size 1</p>
+              <p class="is-size-2">Font size 2</p>
+              <p class="is-size-3">Font size 3</p>
+              <p class="is-size-4">Font size 4</p>
+              <p class="is-size-5">Font size 5</p>
+              <p class="is-size-6">Font size 6</p>
+            </section>
+
+            <h2>Buttons</h2>
+            <section>
+              <button>Button</button>
+              <button type="button">Button</button>
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+              <a role="button">Link as button</a>
+              <button type="button" disabled>Disabled</button>
+            </section>
+
+            <h2>Metors</h2>
+            <section>
+              <meter min="0" max="100" low="25" high="75" optimum="100" value="10"></meter>
+              <meter min="0" max="100" low="25" high="75" optimum="100" value="50"></meter>
+              <meter min="0" max="100" low="25" high="75" optimum="100" value="80"></meter>
+            </section>
+
+            <h2>Input Validation</h2>
+            <section>
+              <p>
+                <label for="required">Invalid Required Input</label>
+                <input type="text" required>
+              </p>
+              <p>
+                <label for="required">Valid Required Input</label>
+                <input type="text" required value="Input value">
+              </p>
+            </section>
+
+            <h2>Text Inputs</h2>
+            <section>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Element</th>
+                    <th>Example</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;input type="text"&gt;</code></p>
+
+                    </td>
+                    <td><input type="text" placeholder="Enter text"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;input type="password"&gt;</code></p>
+
+                    </td>
+                    <td><input type="text" placeholder="••••••••••"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;input type="email"&gt;</code></p>
+
+                    </td>
+                    <td><input type="email" placeholder="name@email.com"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;input type="url"&gt;</code></p>
+
+                    </td>
+                    <td><input type="url" placeholder="http://yoursite.com"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;input type="tel"&gt;</code></p>
+
+                    </td>
+                    <td><input type="tel" placeholder="(999) 999-9999"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;input type="search"&gt;</code></p>
+
+                    </td>
+                    <td><input type="search" placeholder="Enter search term"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;input type="number"&gt;</code></p>
+
+                    </td>
+                    <td><input type="number" placeholder="1234"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;input readonly&gt;</code></p>
+
+                    </td>
+                    <td><input type="text" placeholder="Enter text" readonly=""></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;input disabled&gt;</code></p>
+
+                    </td>
+                    <td><input type="text" placeholder="Enter text" disabled=""></td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+
+            <h2>Inline Text Elements</h2>
+            <section>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Element</th>
+                    <th>Example</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;strong&gt; &lt;b&gt;</code></p>
+
+                    </td>
+                    <td><strong>This is strong text</strong></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;em&gt; &lt;i&gt;</code></p>
+
+                    </td>
+                    <td><em>This is emphasized text</em></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;u&gt;</code></p>
+
+                    </td>
+                    <td><u>This is underlined text</u></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;s&gt;</code></p>
+
+                    </td>
+                    <td><s>This is strikethrough text</s></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;small&gt;</code></p>
+
+                    </td>
+                    <td><small>This is small text</small></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;sup&gt;</code></p>
+
+                    </td>
+                    <td><sup>This is superscript text</sup></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;sub&gt;</code></p>
+
+                    </td>
+                    <td><sub>This is subscript text</sub></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;var&gt;</code></p>
+
+                    </td>
+                    <td><var>This is variable text</var></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;dfn&gt;</code></p>
+
+                    </td>
+                    <td><dfn>This is definition text</dfn></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;abbr&gt;</code></p>
+
+                    </td>
+                    <td><abbr title="abbreviation">This is abbreviation text</abbr></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;del&gt;</code></p>
+
+                    </td>
+                    <td><del>This is deleted text</del></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;ins&gt;</code></p>
+
+                    </td>
+                    <td><ins>This is inserted text</ins></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><code class="highlighter-rouge">&lt;mark&gt;</code></p>
+
+                    </td>
+                    <td><mark>This is marked text</mark></td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+
+          </section>
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
