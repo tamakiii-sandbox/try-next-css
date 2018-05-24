@@ -2,6 +2,11 @@
   --primary-color: #FF0000;
   --secondary-color: #00FF00;
   --base-fontsize: 1rem;
+  --mainColor: red;
+}
+
+a {
+  color: var(--mainColor);
 }
 
 .h1 {
