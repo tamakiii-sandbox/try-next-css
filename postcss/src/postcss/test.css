@@ -21,7 +21,6 @@ a {
   @apply --danger-theme;
 }
 
-/* test */
 .h1 {
   color: var(--primary-color);
 }
