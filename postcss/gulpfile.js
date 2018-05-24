@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var postcss = require('gulp-postcss');
 var path = {
   post_src : 'src/postcss/*.css',
-  css_dest : 'dist/css',
+  css_dest : 'public/dist/css',
 };
 
 gulp.task('build-postcss', function() {
