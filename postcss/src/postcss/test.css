@@ -3,10 +3,19 @@
   --secondary-color: #00FF00;
   --base-fontsize: 1rem;
   --mainColor: red;
+
+  --danger-theme: {
+    color: white;
+    background-color: red;
+  };
 }
 
 a {
   color: var(--mainColor);
+}
+
+.danger {
+  @apply --danger-theme;
 }
 
 .h1 {
